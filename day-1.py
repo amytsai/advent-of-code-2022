@@ -1,6 +1,6 @@
 import sys
 def part_one():
-    input_file = '/Users/amytsai/Code/advent-of-code/inputs/day-1-input'
+    input_file = 'inputs/day-1-input'
     lines = [line.strip() for line in open(input_file).readlines()]
     elfs = []
     tmp_line = []
@@ -18,7 +18,7 @@ def part_one():
     return max_cal
 
 def part_two():
-    input_file = '/Users/amytsai/Code/advent-of-code/inputs/day-1-input'
+    input_file = 'inputs/day-1-input'
     lines = [line.strip() for line in open(input_file).readlines()]
     elfs = []
     tmp_line = []

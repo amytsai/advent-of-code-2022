@@ -15,7 +15,7 @@ def part_two(line):
 
 
 def main():
-    input_file = '/Users/amytsai/Code/advent-of-code-2022/inputs/day-6-input'
+    input_file = 'inputs/day-6-input'
     parsed_lines = [line.strip() for line in open(input_file).readlines()]
     part_one_ans = part_one(parsed_lines[0])
     print(f'Part 1 Answer: {part_one_ans}')

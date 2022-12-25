@@ -21,7 +21,7 @@ def part_two(pairs):
     return total
 
 def main():
-    input_file = '/Users/amytsai/Code/advent-of-code-2022/inputs/day-4-input'
+    input_file = 'inputs/day-4-input'
     parsed_lines = [line.strip() for line in open(input_file).readlines()]
     parsed_pairs = [
         [

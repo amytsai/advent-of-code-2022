@@ -52,7 +52,7 @@ def part_two(lines):
 
 
 def main():
-    input_file = '/Users/amytsai/Code/advent-of-code/inputs/day-2-input'
+    input_file = 'inputs/day-2-input'
     parsed_lines = [line.strip() for line in open(input_file).readlines()]
 
     part_one_ans = part_one(parsed_lines)

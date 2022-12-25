@@ -33,7 +33,7 @@ def part_two(board, moves):
     return output
 
 def main():
-    input_file = '/Users/amytsai/Code/advent-of-code-2022/inputs/day-5-input'
+    input_file = 'inputs/day-5-input'
     parsed_lines = open(input_file).readlines()
     board = {
         key: list() for key in range(1, 10)
