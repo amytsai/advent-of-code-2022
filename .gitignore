@@ -1,5 +1,8 @@
 # Python
-env/
+.venv/
 
 # Inputs
 inputs/
+
+# MacOS
+.DS_Store
